@@ -1,2 +1,2 @@
 # chat-get
-The way we gonna roll this world!
+2 Armenians' and 1 Khokhol's project
