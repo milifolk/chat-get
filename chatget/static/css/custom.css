@@ -44,7 +44,7 @@ h1 small { font-size: 90% }
             Header Area
 ============================================================= */
 .header { background-color: #EB5055 }
-.logo { background: url("../img/passion.png") no-repeat scroll 0 0 transparent; height: 45px; text-indent: -9999px; width: 112px; }
+.logo { background: url("../img/passion.png") no-repeat scroll 0 0 transparent; height: 45px; text-indent: -9999px; width: 158px; }
 
 /**bootstrap over style for menu**/
 .navbar-default{ background-color: #303441; border-bottom: 2px solid #4A4F5E; top: 0; left: 0; position: fixed; right: 0; z-index: 1030; margin-bottom: 20px; min-height: 50px; -webkit-transform: translateY(0%); -moz-transform: translateY(0%); transform: translateY(0%); -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; }

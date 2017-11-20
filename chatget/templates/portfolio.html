@@ -5,7 +5,7 @@
       <div class="col-xs-12 col-md-12 col-sm-12">
         <div class=" container TitleSection">
           <header class="page-head">
-            <h1>Our<small> // Portfolio</small></h1>
+            <h1>Order<small> // CLOUD</small></h1>
           </header>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris. aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
@@ -25,104 +25,11 @@
           </ul>
         </section>
         <div id="filter_container" class="clearfix portfolioContainer">
-          <div class="element Logo_design copywriting" data-category="Logo_design">
-            <div class="hexagon"> <a href="#"> <span class="mask"></span> <img src="{% static 'img/2.jpg' %}" alt="filter" /> </a>
-              <div class="portfolio-title">
-                <h4>John Doe<span>Art-Director</span></h4>
-              </div>
-            </div>
-          </div>
-          <div class="element branding copywriting" data-category="branding">
-            <div class="hexagon"> <a href="#"> <span class="mask"></span> <img src="{% static 'img/1.jpg' %}"  alt="filter"/> </a>
-              <div class="portfolio-title">
-                <h4>John Doe<span>Art-Director</span></h4>
-              </div>
-            </div>
-          </div>
-          <div class="element Logo_design copywriting" data-category="Logo_design">
-            <div class="hexagon"> <a href="#"> <span class="mask"></span> <img src="{% static 'img/3.jpg' %}"  alt="filter"/> </a>
-              <div class="portfolio-title">
-                <h4>John Doe<span>Art-Director</span></h4>
-              </div>
-            </div>
-          </div>
-          <div class="element Logo_design copywriting" data-category="Logo_design">
-            <div class="hexagon"> <a href="#"> <span class="mask"></span> <img src="{% static 'img/2.jpg' %}"  alt="filter"/> </a>
-              <div class="portfolio-title">
-                <h4>John Doe<span>Art-Director</span></h4>
-              </div>
-            </div>
-          </div>
-          <div class="element branding copywriting" data-category="branding">
-            <div class="hexagon"> <a href="#"> <span class="mask"></span> <img src="{% static 'img/1.jpg' %}"  alt="filter"/> </a>
-              <div class="portfolio-title">
-                <h4>John Doe<span>Art-Director</span></h4>
-              </div>
-            </div>
-          </div>
-          <div class="element Logo_design copywriting" data-category="Logo_design">
-            <div class="hexagon"> <a href="#"> <span class="mask"></span> <img src="{% static 'img/3.jpg' %}"  alt="filter"/> </a>
-              <div class="portfolio-title">
-                <h4>John Doe<span>Art-Director</span></h4>
-              </div>
-            </div>
-          </div>
-          <div class="element other print" data-category="other">
-            <div class="hexagon"> <a href="#"> <span class="mask"></span> <img src="{% static 'img/2.jpg' %}"  alt="filter"/> </a>
-              <div class="portfolio-title">
-                <h4>John Doe<span>Art-Director</span></h4>
-              </div>
-            </div>
-          </div>
-          <div class="element copywriting" data-category="copywriting">
-            <div class="hexagon"> <a href="#"> <span class="mask"></span> <img src="{% static 'img/3.jpg' %}"  alt="filter"/> </a>
-              <div class="portfolio-title">
-                <h4>John Doe<span>Art-Director</span></h4>
-              </div>
-            </div>
-          </div>
-          <div class="element copywriting" data-category="copywriting">
-            <div class="hexagon"> <a href="#"> <span class="mask"></span> <img src="{% static 'img/1.jpg' %}"  alt="filter"/> </a>
-              <div class="portfolio-title">
-                <h4>John Doe<span>Art-Director</span></h4>
-              </div>
-            </div>
-          </div>
-          <div class="element Logo_design copywriting" data-category="Logo_design">
-            <div class="hexagon"> <a href="#"> <span class="mask"></span> <img src="{% static 'img/3.jpg' %}" alt="filter" /> </a>
-              <div class="portfolio-title">
-                <h4>John Doe<span>Art-Director</span></h4>
-              </div>
-            </div>
-          </div>
-          <div class="element branding copywriting" data-category="branding">
-            <div class="hexagon"> <a href="#"> <span class="mask"></span> <img src="{% static 'img/1.jpg' %}"  alt="filter"/> </a>
-              <div class="portfolio-title">
-                <h4>John Doe<span>Art-Director</span></h4>
-              </div>
-            </div>
-          </div>
-          <div class="element Logo_design copywriting" data-category="Logo_design">
-            <div class="hexagon"> <a href="#"> <span class="mask"></span> <img src="{% static 'img/2.jpg' %}"  alt="filter"/> </a>
-              <div class="portfolio-title">
-                <h4>John Doe<span>Art-Director</span></h4>
-              </div>
-            </div>
-          </div>
-          <div class="element Logo_design copywriting" data-category="Logo_design">
-            <div class="hexagon"> <a href="#"> <span class="mask"></span> <img src="{% static 'img/1.jpg' %}"  alt="filter"/> </a>
-              <div class="portfolio-title">
-                <h4>John Doe<span>Art-Director</span></h4>
-              </div>
-            </div>
-          </div>
-          <div class="element branding copywriting" data-category="branding">
-            <div class="hexagon"> <a href="#"> <span class="mask"></span> <img src="{% static 'img/2.jpg' %}"  alt="filter"/> </a>
-              <div class="portfolio-title">
-                <h4>John Doe<span>Art-Director</span></h4>
-              </div>
-            </div>
-          </div>
+
+            {% for i in "123123" %}
+                {% include "hexagon.html" %}
+            {% endfor %}
+
         </div>
       </div>
     </div>
